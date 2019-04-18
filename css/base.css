@@ -1,0 +1,38 @@
+﻿body,p,h1,h2,h3,h4,h5,h6,ul,li,ol,dt,dd,dl {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: #fff;
+    font-size: 14px;
+    font-family: "微软雅黑";
+}
+a:hover {
+    color: orange;
+}
+a {
+    text-decoration: none;
+    color: #666;
+}
+img,input {
+    vertical-align: middle;  
+    border :0 none;
+    outline-style: none;
+    padding: 0;
+    margin: 0;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+.clearfix {
+    zoom: 1;
+}
+.w{
+    width: 1400px;
+    margin: 0 auto;
+}
